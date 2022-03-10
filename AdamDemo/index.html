@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <script
+      src="https://kit.fontawesome.com/e04dbd0faf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="tabIcon.PNG" />
+    <title>BlankAdam</title>
+  </head>
+  <body onload="startTime()">
+    <header class="header-items">
+      <img class="logo-top" src="adamlogo.jpg" />
+      <ul class="header-list">
+        <li><a>File</a></li>
+        <li><a>Edit</a></li>
+        <li><a>View</a></li>
+        <li><a>Go</a></li>
+        <li><a>Help</a></li>
+      </ul>
+
+      <ul class="nav-right">
+        <li class="twitter-top">
+          <a href="https://twitter.com/hiiiaaaadam" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="tumblr-top">
+          <a href="https://spindoza.tumblr.com/" target="_blank"
+            ><i class="fab fa-tumblr-square"></i
+          ></a>
+        </li>
+        <li class="instagram-top">
+          <a
+            href="https://instagram.com/notblankadam?utm_medium=copy_link"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li class="youtube-top">
+          <a
+            href="https://www.youtube.com/channel/UC_QPKVeeq5-RQ94Twrw77rg"
+            target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </li>
+        <li class="soundcloud-top">
+          <a href="https://soundcloud.com/aaaadam1" target="_blank"
+            ><i class="fab fa-soundcloud"></i
+          ></a>
+        </li>
+        <li class="wifi-top">
+          <a><i class="fas fa-wifi"></i></a>
+        </li>
+        <li class="search-top">
+          <a><i class="fas fa-search"></i></a>
+        </li>
+
+        <li><a id="clock"></a></li>
+      </ul>
+    </header>
+    <main id="outerContainer">
+      <div id="container">
+        <ul>
+          <li class="item one show-modal-twitter">
+            <a class="show-modal" draggable="false">
+              <i class="fas fa-folder fa-4x"
+                ><span class="desktop-span">Twitter</span></i
+              >
+            </a>
+            <p></p>
+          </li>
+          <li class="item two show-modal-instagram">
+            <a draggable="false"
+              ><i class="fas fa-folder fa-4x"
+                ><span class="desktop-span">Instagram</span></i
+              ></a
+            >
+          </li>
+
+          <li class="item three show-modal-soundcloud">
+            <a draggable="false"
+              ><i class="fas fa-folder fa-4x"
+                ><span class="desktop-span">Soundcloud</span></i
+              ></a
+            >
+          </li>
+
+          <li class="item four show-modal-tumblr">
+            <a draggable="false"
+              ><i class="fas fa-folder fa-4x"
+                ><span class="desktop-span">Tumblr</span></i
+              ></a
+            >
+          </li>
+
+          <li class="item five show-modal-youtube">
+            <a draggable="false"
+              ><i class="fas fa-folder fa-4x"
+                ><span class="desktop-span">Youtube</span></i
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="modal-twitter hidden" id="twitter">
+        <div class="popup-context-twitter">
+          <div class="dots-wrapper close-modal">
+            <div id="dot-1" class="browser-dot"></div>
+            <button></button><a href="index.html" class="close"></a>
+            <div id="dot-2" class="close-modal browser-dot"></div>
+            <div id="dot-3" class="close-modal browser-dot"></div>
+            <i class="top-left-arrow fa-solid fa-angle-left fa-1x"></i>
+            <i class="top-right-arrow fa-solid fa-angle-right fa-1x"></i>
+            <p class="top-text">Twitter</p>
+            <i class="top-square fa-solid fa-table-cells-large"></i>
+            <i class="top-grip fa-solid fa-grip"></i>
+            <i class="top-list fa-solid fa-list"></i>
+            <i class="top-sort fa-solid fa-arrow-up-wide-short"></i>
+            <i class="share-top fa-solid fa-arrow-up-from-bracket"></i>
+            <i class="top-tag fa-solid fa-tag"></i>
+            <i class="top-threedots fa-solid fa-ellipsis"></i>
+            <i class="top-search fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div class="vl"></div>
+
+          <div class="hl"></div>
+          <div class="center-content">
+            <a
+              href="https://twitter.com/hiiiaaaadam/status/1494524875507130382?cxt=HHwWnICziZedz70pAAAA"
+              target="_blank"
+              ><i class="file-one fa-solid fa-file fa-4x">
+                <span>Tweet-Feb 17th</span>
+              </i>
+            </a>
+            <a
+              href="https://twitter.com/hiiiaaaadam/status/1494524594077720577?cxt=HHwWgoCzoeaMz70pAAAA"
+              target="_blank"
+              ><i class="file-two fa-solid fa-file fa-4x">
+                <span>Tweet-Feb 17th</span>
+              </i>
+            </a>
+            <i class="hidden file-three fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+            <i class="hidden file-four fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+            <i class="hidden file-five fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+            <i class="hidden file-six fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+
+            <i class="hidden file-seven fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+            <i class="hidden file-eight fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+            <i class="hidden file-nine fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+            <i class="hidden file-ten fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+
+            <i class="hidden ile-11 fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+            <i class="hidden file-12 fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+
+            <i class="hidden file-13 fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+            <i class="hidden file-14 fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+            <i class="hidden file-15 fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+            <i class="hidden file-16 fa-solid fa-file fa-4x">
+              <span>Tweet</span>
+            </i>
+          </div>
+
+          <p class="favorites">Favorites</p>
+          <ul>
+            <li class="adam-drop">
+              <i id="icon-finder" class="fa-solid fa-earth-europe"></i>
+              <span id="text">AdamDrop</span>
+            </li>
+            <li class="recent">
+              <i class="fa-regular fa-clock"></i>
+              <span id="text">Recent</span>
+            </li>
+            <li class="Applications">
+              <i class="fa-brands fa-app-store"></i>
+              <span id="text">Applications</span>
+            </li>
+            <li class="Desktop">
+              <i class="fa-solid fa-desktop"></i>
+              <span id="text">Desktop</span>
+            </li>
+            <li class="Downloads">
+              <i class="fa-solid fa-download"></i>
+              <span id="text">Downloads</span>
+            </li>
+          </ul>
+          <p class="favorites">iCloud</p>
+          <ul>
+            <li class="icloud">
+              <i class="fa-solid fa-cloud"></i>
+              <span id="text">iCloud Drive</span>
+            </li>
+            <li class="shared">
+              <i class="fa-solid fa-file-import"></i>
+              <span id="text">Shared</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="modal-instagram hidden" id="instgram">
+        <div class="popup-context-instagram">
+          <div class="dots-wrapper close-modal-ig">
+            <div id="dot-1" class="browser-dot"></div>
+            <button></button><a href="index.html" class="close"></a>
+            <div id="dot-2" class="close-modal browser-dot"></div>
+            <div id="dot-3" class="close-modal browser-dot"></div>
+            <i class="top-left-arrow fa-solid fa-angle-left fa-1x"></i>
+            <i class="top-right-arrow fa-solid fa-angle-right fa-1x"></i>
+            <p class="top-text">Instagram</p>
+            <i class="top-square fa-solid fa-table-cells-large"></i>
+            <i class="top-grip fa-solid fa-grip"></i>
+            <i class="top-list fa-solid fa-list"></i>
+            <i class="top-sort fa-solid fa-arrow-up-wide-short"></i>
+            <i class="share-top fa-solid fa-arrow-up-from-bracket"></i>
+            <i class="top-tag fa-solid fa-tag"></i>
+            <i class="top-threedots fa-solid fa-ellipsis"></i>
+            <i class="top-search fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div class="vl"></div>
+
+          <div class="hl"></div>
+          <div class="center-content">
+            <a href="https://www.instagram.com/p/CZhtMaMJ9X4/" target="_blank">
+              <i class="file-one fa-solid fa-file-image fa-4x">
+                <span>Post-Feb 3rd</span>
+              </i>
+            </a>
+            <a href="https://www.instagram.com/p/CZSqGbMJeNb/" target="_blank">
+              <i class="file-two fa-solid fa-file-image fa-4x">
+                <span>Post-Jan 28th</span>
+              </i>
+            </a>
+            <a href="https://www.instagram.com/p/CZHtalMFiS6/" target="_blank">
+            <i class="file-three fa-solid fa-file-image fa-4x">
+              <span>Post-Jan 24th</span>
+            </i>
+            </a>
+            <a href="https://www.instagram.com/p/CNu9iq5gPnA/" target="_blank"></a>
+            <i class="file-four fa-solid fa-file-image fa-4x">
+              <span>Post-Apr 16th 2021</span>
+            </i>
+            </a>
+            <i class="hidden file-five fa-solid fa-file-image fa-4x">
+              <span>Photo</span>
+            </i>
+            <i class="hidden file-six fa-solid fa-file-image fa-4x">
+              <span>Photo</span>
+            </i>
+
+            <i class="hidden file-seven fa-solid fa-file-image fa-4x">
+              <span>Photo</span>
+            </i>
+            <i class="hidden file-eight fa-solid fa-file-image fa-4x">
+              <span>Photo</span>
+            </i>
+            <i class="hidden file-nine fa-solid fa-file-image fa-4x">
+              <span>Photo</span>
+            </i>
+            <i class="hidden file-ten fa-solid fa-file-image fa-4x">
+              <span>Photo</span>
+            </i>
+
+            <i class="hidden file-11 fa-solid fa-file-image fa-4x">
+              <span>Photo</span>
+            </i>
+            <i class="hidden file-12 fa-solid fa-file-image fa-4x">
+              <span>Photo</span>
+            </i>
+
+            <i class="hidden file-13 fa-solid fa-file-image fa-4x">
+              <span>Photo</span>
+            </i>
+            <i class="hidden file-14 fa-solid fa-file-image fa-4x">
+              <span>Photo</span>
+            </i>
+            <i class="hidden file-15 fa-solid fa-file-image fa-4x">
+              <span>Photo</span>
+            </i>
+            <i class="hidden file-16 fa-solid fa-file-image fa-4x">
+              <span>Photo</span>
+            </i>
+          </div>
+
+          <p class="favorites">Favorites</p>
+          <ul>
+            <li class="adam-drop">
+              <i id="icon-finder" class="fa-solid fa-earth-europe"></i>
+              <span id="text">AdamDrop</span>
+            </li>
+            <li class="recent">
+              <i class="fa-regular fa-clock"></i>
+              <span id="text">Recent</span>
+            </li>
+            <li class="Applications">
+              <i class="fa-brands fa-app-store"></i>
+              <span id="text">Applications</span>
+            </li>
+            <li class="Desktop">
+              <i class="fa-solid fa-desktop"></i>
+              <span id="text">Desktop</span>
+            </li>
+            <li class="Downloads">
+              <i class="fa-solid fa-download"></i>
+              <span id="text">Downloads</span>
+            </li>
+          </ul>
+          <p class="favorites">iCloud</p>
+          <ul>
+            <li class="icloud">
+              <i class="fa-solid fa-cloud"></i>
+              <span id="text">iCloud Drive</span>
+            </li>
+            <li class="shared">
+              <i class="fa-solid fa-file-import"></i>
+              <span id="text">Shared</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="modal-soundcloud hidden" id="soundcloud">
+        <div class="popup-context-soundcloud">
+          <div class="dots-wrapper close-modal-sc">
+            <div id="dot-1" class="browser-dot"></div>
+            <button></button><a href="index.html" class="close"></a>
+            <div id="dot-2" class="close-modal browser-dot"></div>
+            <div id="dot-3" class="close-modal browser-dot"></div>
+            <i class="top-left-arrow fa-solid fa-angle-left fa-1x"></i>
+            <i class="top-right-arrow fa-solid fa-angle-right fa-1x"></i>
+            <p class="top-text">Soundcloud</p>
+            <i class="top-square fa-solid fa-table-cells-large"></i>
+            <i class="top-grip fa-solid fa-grip"></i>
+            <i class="top-list fa-solid fa-list"></i>
+            <i class="top-sort fa-solid fa-arrow-up-wide-short"></i>
+            <i class="share-top fa-solid fa-arrow-up-from-bracket"></i>
+            <i class="top-tag fa-solid fa-tag"></i>
+            <i class="top-threedots fa-solid fa-ellipsis"></i>
+            <i class="top-search fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div class="vl"></div>
+
+          <div class="hl"></div>
+          <div class="center-content">
+            <a href="https://soundcloud.com/aaaadam1/spacetime-myspacemark" target="_blank">
+            <i class="file-one fa-solid fa-file-audio fa-4x">
+              <span>spacetime</span>
+            </i>
+            </a>
+            <a href="https://soundcloud.com/aaaadam1/northface-feat-spira_me" target="_blank">
+            <i class="file-two fa-solid fa-file-audio fa-4x">
+              <span>northface</span>
+            </i>
+            </a>
+            <a href="https://soundcloud.com/aaaadam1/thorn" target="_blank">
+            <i class="file-three fa-solid fa-file-audio fa-4x">
+              <span>thorn</span>
+            </i>
+            </a> 
+            <a href="https://soundcloud.com/aaaadam1/boring-prod-starstrike" target="_blank">
+            <i class="file-four fa-solid fa-file-audio fa-4x">
+              <span>boring</span>
+            </i>
+            </a>
+            <a href="https://soundcloud.com/aaaadam1/sunup" target="_blank">
+            <i class="file-five fa-solid fa-file-audio fa-4x">
+              <span>sunup</span>
+            </i>
+            </a>
+            <a href="https://soundcloud.com/aaaadam1/626-dont-let-go-feat-iamsoapie" target="_blank">
+            <i class="file-six fa-solid fa-file-audio fa-4x">
+              <span>dont let go 
+              </span>
+            </i>
+            </a>
+            <a href="https://soundcloud.com/aaaadam1/euphoria2021" target="_blank">
+            <i class="file-seven fa-solid fa-file-audio fa-4x">
+              <span>bonegarden</span>
+            </i>
+            </a>
+            <i class="hidden file-eight fa-solid fa-file-audio fa-4x">
+              <span>Audio</span>
+            </i>
+            <i class="hidden file-nine fa-solid fa-file-audio fa-4x">
+              <span>Audio</span>
+            </i>
+            <i class="hidden file-ten fa-solid fa-file-audio fa-4x">
+              <span>Audio</span>
+            </i>
+
+            <i class="hidden file-11 fa-solid fa-file-audio fa-4x">
+              <span>Audio</span>
+            </i>
+            <i class="hidden file-12 fa-solid fa-file-audio fa-4x">
+              <span>Audio</span>
+            </i>
+
+            <i class="hidden file-13 fa-solid fa-file-audio fa-4x">
+              <span>Audio</span>
+            </i>
+            <i class="hidden file-14 fa-solid fa-file-audio fa-4x">
+              <span>Audio</span>
+            </i>
+            <i class="hidden file-15 fa-solid fa-file-audio fa-4x">
+              <span>Audio</span>
+            </i>
+            <i class="hidden file-16 fa-solid fa-file-audio fa-4x">
+              <span>Audio</span>
+            </i>
+          </div>
+
+          <p class="favorites">Favorites</p>
+          <ul>
+            <li class="adam-drop">
+              <i id="icon-finder" class="fa-solid fa-earth-europe"></i>
+              <span id="text">AdamDrop</span>
+            </li>
+            <li class="recent">
+              <i class="fa-regular fa-clock"></i>
+              <span id="text">Recent</span>
+            </li>
+            <li class="Applications">
+              <i class="fa-brands fa-app-store"></i>
+              <span id="text">Applications</span>
+            </li>
+            <li class="Desktop">
+              <i class="fa-solid fa-desktop"></i>
+              <span id="text">Desktop</span>
+            </li>
+            <li class="Downloads">
+              <i class="fa-solid fa-download"></i>
+              <span id="text">Downloads</span>
+            </li>
+          </ul>
+          <p class="favorites">iCloud</p>
+          <ul>
+            <li class="icloud">
+              <i class="fa-solid fa-cloud"></i>
+              <span id="text">iCloud Drive</span>
+            </li>
+            <li class="shared">
+              <i class="fa-solid fa-file-import"></i>
+              <span id="text">Shared</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="modal-tumblr hidden" id="tumblr">
+        <div class="popup-context-tumblr">
+          <div class="dots-wrapper close-modal-tb">
+            <div id="dot-1" class="browser-dot"></div>
+            <button></button><a href="index.html" class="close"></a>
+            <div id="dot-2" class="close-modal browser-dot"></div>
+            <div id="dot-3" class="close-modal browser-dot"></div>
+            <i class="top-left-arrow fa-solid fa-angle-left fa-1x"></i>
+            <i class="top-right-arrow fa-solid fa-angle-right fa-1x"></i>
+            <p class="top-text">Tumblr</p>
+            <i class="top-square fa-solid fa-table-cells-large"></i>
+            <i class="top-grip fa-solid fa-grip"></i>
+            <i class="top-list fa-solid fa-list"></i>
+            <i class="top-sort fa-solid fa-arrow-up-wide-short"></i>
+            <i class="share-top fa-solid fa-arrow-up-from-bracket"></i>
+            <i class="top-tag fa-solid fa-tag"></i>
+            <i class="top-threedots fa-solid fa-ellipsis"></i>
+            <i class="top-search fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div class="vl"></div>
+
+          <div class="hl"></div>
+          <div class="center-content">
+            <i class="hidden file-one fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+
+            <i class="hidden file-two fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+            <i class="hidden file-three fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+            <i class="hidden file-four fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+            <i class="hidden file-five fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+            <i class="hidden file-six fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+
+            <i class="hidden file-seven fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+            <i class="hidden file-eight fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+            <i class="hidden file-nine fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+            <i class="hidden file-ten fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+
+            <i class="hidden file-11 fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+            <i class="hidden file-12 fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+
+            <i class="hidden file-13 fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+            <i class="hidden file-14 fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+            <i class="hidden file-15 fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+            <i class="hidden file-16 fa-solid fa-file-lines fa-4x">
+              <span>Post</span>
+            </i>
+          </div>
+
+          <p class="favorites">Favorites</p>
+          <ul>
+            <li class="adam-drop">
+              <i id="icon-finder" class="fa-solid fa-earth-europe"></i>
+              <span id="text">AdamDrop</span>
+            </li>
+            <li class="recent">
+              <i class="fa-regular fa-clock"></i>
+              <span id="text">Recent</span>
+            </li>
+            <li class="Applications">
+              <i class="fa-brands fa-app-store"></i>
+              <span id="text">Applications</span>
+            </li>
+            <li class="Desktop">
+              <i class="fa-solid fa-desktop"></i>
+              <span id="text">Desktop</span>
+            </li>
+            <li class="Downloads">
+              <i class="fa-solid fa-download"></i>
+              <span id="text">Downloads</span>
+            </li>
+          </ul>
+          <p class="favorites">iCloud</p>
+          <ul>
+            <li class="icloud">
+              <i class="fa-solid fa-cloud"></i>
+              <span id="text">iCloud Drive</span>
+            </li>
+            <li class="shared">
+              <i class="fa-solid fa-file-import"></i>
+              <span id="text">Shared</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="modal-youtube hidden" id="tumblr">
+        <div class="popup-context-youtube">
+          <div class="dots-wrapper close-modal-yt">
+            <div id="dot-1" class="browser-dot"></div>
+            <button></button><a href="index.html" class="close"></a>
+            <div id="dot-2" class="close-modal browser-dot"></div>
+            <div id="dot-3" class="close-modal browser-dot"></div>
+            <i class="top-left-arrow fa-solid fa-angle-left fa-1x"></i>
+            <i class="top-right-arrow fa-solid fa-angle-right fa-1x"></i>
+            <p class="top-text">Youtube</p>
+            <i class="top-square fa-solid fa-table-cells-large"></i>
+            <i class="top-grip fa-solid fa-grip"></i>
+            <i class="top-list fa-solid fa-list"></i>
+            <i class="top-sort fa-solid fa-arrow-up-wide-short"></i>
+            <i class="share-top fa-solid fa-arrow-up-from-bracket"></i>
+            <i class="top-tag fa-solid fa-tag"></i>
+            <i class="top-threedots fa-solid fa-ellipsis"></i>
+            <i class="top-search fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div class="vl"></div>
+
+          <div class="hl"></div>
+          <div class="center-content">
+            <i class="hidden file-one fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+
+            <i class="hidden file-two fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+            <i class="hidden file-three fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+            <i class="hidden file-four fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+            <i class="hidden file-five fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+            <i class="hidden file-six fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+
+            <i class="hidden file-seven fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+            <i class="hidden file-eight fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+            <i class="hidden file-nine fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+            <i class="hidden file-ten fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+
+            <i class="hidden file-11 fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+            <i class="hidden file-12 fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+
+            <i class="hidden file-13 fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+            <i class="hidden file-14 fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+            <i class="hidden file-15 fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+            <i class="hidden file-16 fa-solid fa-file-video fa-4x">
+              <span>Video</span>
+            </i>
+          </div>
+
+          <p class="favorites">Favorites</p>
+          <ul>
+            <li class="adam-drop">
+              <i id="icon-finder" class="fa-solid fa-earth-europe"></i>
+              <span id="text">AdamDrop</span>
+            </li>
+            <li class="recent">
+              <i class="fa-regular fa-clock"></i>
+              <span id="text">Recent</span>
+            </li>
+            <li class="Applications">
+              <i class="fa-brands fa-app-store"></i>
+              <span id="text">Applications</span>
+            </li>
+            <li class="Desktop">
+              <i class="fa-solid fa-desktop"></i>
+              <span id="text">Desktop</span>
+            </li>
+            <li class="Downloads">
+              <i class="fa-solid fa-download"></i>
+              <span id="text">Downloads</span>
+            </li>
+          </ul>
+          <p class="favorites">iCloud</p>
+          <ul>
+            <li class="icloud">
+              <i class="fa-solid fa-cloud"></i>
+              <span id="text">iCloud Drive</span>
+            </li>
+            <li class="shared">
+              <i class="fa-solid fa-file-import"></i>
+              <span id="text">Shared</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul class="footer-list">
+        <li>
+          <a href="links.html"><i class="fas fa-folder fa-2x"></i></a>
+        </li>
+        <li>
+          <a
+            href="https://open.spotify.com/artist/0mY3XFXihzHDB53uvf2h8b?si=SxU1WYpFRMWaIMxvFQNA_A" target="_blank"
+            ><i class="fa-brands fa-spotify fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://music.apple.com/us/artist/blank-adam/1417141367" target="_blank"
+            ><i class="fa-solid fa-music fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#trash"><i class="fa-solid fa-trash fa-2x"></i></a>
+        </li>
+
+        <li><a id="clock" href="file.html"></a></li>
+      </ul>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1148 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.hidden {
+  display: none;
+}
+a {
+  color: black;
+}
+
+body {
+  background-image: url(wallpaper1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+header {
+  display: inline-flex;
+  border-bottom: 0.5px black solid;
+  margin-bottom: 0;
+  background-color: lightgray;
+}
+header img {
+  width: 7%;
+  opacity: 0.9;
+}
+header ul {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+header li {
+  display: inline-flex;
+  list-style: none;
+  letter-spacing: 0.1rem;
+  margin-right: 1.3rem;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+.nav-right {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.item i {
+  color: black;
+}
+
+#container {
+  width: 100%;
+  height: 900px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+  overflow: hidden;
+  touch-action: none;
+  /* z-index: 99; */
+}
+
+footer {
+  display: flex;
+  width: 20%;
+  height: 3rem;
+  background-color: lightgrey;
+  /* opacity: 0.7; */
+  border-radius: 0.3rem;
+  position: absolute;
+  bottom: 0%;
+  margin: 0.3rem 40%;
+}
+/* button {
+} */
+
+.item {
+  /* border-radius: 50%; */
+  touch-action: none;
+  user-select: none;
+  position: relative;
+}
+
+.one {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  /* width: 100px;
+  height: 60px;
+  top: 20%;
+  left: 10%; */
+}
+.two {
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  /* width: 100px;
+  height: 60px;
+  top: 40%;
+  left: 10%; */
+}
+
+.three {
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  /* width: 100px;
+  height: 60px;
+  top: 50%;
+  left: 10%; */
+}
+
+.four {
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  /* width: 100px;
+  height: 60px;
+  top: 60%;
+  left: 10%; */
+}
+.five {
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  /* width: 100px;
+  height: 60px;
+  top: 80%;
+  left: 10%; */
+}
+
+.item:active {
+  opacity: 0.75;
+}
+.item:hover {
+  cursor: pointer;
+}
+
+.footer-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-right: 0;
+  margin-left: 1.5rem;
+}
+
+.footer-list li {
+  justify-content: center;
+  display: inline-flex;
+  list-style: none;
+  letter-spacing: 0.1rem;
+  align-items: center;
+  margin: 1.5rem;
+}
+.footer-list i {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.desktop-span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.modal-twitter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.modal-instgram {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.modal-soundcloud {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.modal-tumblr {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.modal-youtube {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.popup-context-twitter {
+  width: 800px;
+  height: 400px;
+  margin: 100px auto;
+  position: relative;
+  background-color: lightgray;
+  opacity: 0.9;
+  border-radius: 0.3rem;
+}
+
+.popup-context-twitter ul {
+  margin-left: 1.2rem;
+}
+
+.popup-context-twitter li {
+  margin-top: 1rem;
+  border-radius: 1%;
+  cursor: pointer;
+}
+
+.popup-context-twitter .adam-drop {
+  display: inline-block;
+}
+.popup-context-instagram {
+  bottom: 58rem;
+  width: 830px;
+  height: 400px;
+  margin: 100px auto;
+  position: relative;
+  background-color: lightgray;
+  opacity: 0.9;
+  border-radius: 0.3rem;
+}
+.popup-context-instagram ul {
+  margin-left: 1.2rem;
+}
+
+.popup-context-instagram li {
+  margin-top: 1rem;
+  border-radius: 1%;
+  cursor: pointer;
+}
+
+.popup-context-instagram .adam-drop {
+  display: inline-block;
+}
+
+.popup-context-soundcloud {
+  /* bottom: 58rem; */
+  width: 830px;
+  height: 400px;
+  margin: 100px auto;
+  position: relative;
+  background-color: lightgray;
+  opacity: 0.9;
+  border-radius: 0.3rem;
+}
+.popup-context-soundcloud ul {
+  margin-left: 1.2rem;
+}
+
+.popup-context-soundcloud li {
+  margin-top: 1rem;
+  border-radius: 1%;
+  cursor: pointer;
+}
+
+.popup-context-soundcloud .adam-drop {
+  display: inline-block;
+}
+
+.popup-context-tumblr {
+  /* bottom: 58rem; */
+  width: 830px;
+  height: 400px;
+  margin: 100px auto;
+  position: relative;
+  background-color: lightgray;
+  opacity: 0.9;
+  border-radius: 0.3rem;
+}
+.popup-context-tumblr ul {
+  margin-left: 1.2rem;
+}
+
+.popup-context-tumblr li {
+  margin-top: 1rem;
+  border-radius: 1%;
+  cursor: pointer;
+}
+
+.popup-context-tumblr .adam-drop {
+  display: inline-block;
+}
+.popup-context-youtube {
+  /* bottom: 58rem; */
+  width: 830px;
+  height: 400px;
+  margin: 100px auto;
+  position: relative;
+  background-color: lightgray;
+  opacity: 0.9;
+  border-radius: 0.3rem;
+}
+.popup-context-youtube ul {
+  margin-left: 1.2rem;
+}
+
+.popup-context-youtube li {
+  margin-top: 1rem;
+  border-radius: 1%;
+  cursor: pointer;
+}
+
+.popup-context-youtube .adam-drop {
+  display: inline-block;
+}
+.favorites {
+  opacity: 0.4;
+  font-size: small;
+  margin-top: 1rem;
+  margin-left: 1.2rem;
+}
+
+.modal:target {
+  display: block;
+}
+
+.dots-wrapper {
+  display: flex;
+  margin-left: 1rem;
+  padding-top: 0.7rem;
+  cursor: pointer;
+}
+#dot-1 {
+  background-color: #fc6058;
+}
+
+#dot-2 {
+  background-color: #fec02f;
+}
+
+#dot-3 {
+  background-color: #2aca3e;
+}
+.browser-dot {
+  background-color: black;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.top-sqaure {
+  margin-left: 3rem;
+  opacity: 0.5;
+}
+
+.top-sort {
+  margin-left: 1.5rem;
+  opacity: 0.7;
+}
+.top-text {
+  margin-left: 1.5rem;
+  font-size: large;
+  letter-spacing: 2px;
+  margin-right: 12rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.top-left-arrow {
+  margin-top: 0.1rem;
+  margin-left: 4rem;
+  opacity: 0.6;
+}
+.top-right-arrow {
+  margin-top: 0.1rem;
+  margin-left: 2rem;
+  opacity: 0.6;
+}
+.share-top {
+  margin-left: 1.5rem;
+  opacity: 0.7;
+}
+.top-list {
+  margin-left: 1.5rem;
+  opacity: 0.7;
+}
+.top-tag {
+  margin-left: 1.5rem;
+  opacity: 0.7;
+}
+.top-threedots {
+  margin-left: 1.5rem;
+  opacity: 0.7;
+}
+.top-grip {
+  margin-left: 1.5rem;
+  opacity: 0.7;
+}
+.top-search {
+  margin-left: 2rem;
+  opacity: 0.7;
+}
+.file-one span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-one {
+  position: absolute;
+  top: 4rem;
+  left: 12rem;
+  text-align: center;
+}
+.file-two span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-two {
+  position: absolute;
+  top: 4rem;
+  left: 20rem;
+  text-align: center;
+}
+.file-three span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-three {
+  position: absolute;
+  top: 4rem;
+  left: 28rem;
+  text-align: center;
+}
+.file-four span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-four {
+  position: absolute;
+  top: 4rem;
+  left: 36rem;
+  text-align: center;
+}
+.file-five span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-five {
+  position: absolute;
+  top: 4rem;
+  left: 44rem;
+  text-align: center;
+}
+
+.file-six span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-six {
+  position: absolute;
+  top: 12rem;
+  left: 12rem;
+}
+.file-seven span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-seven {
+  position: absolute;
+  top: 12rem;
+  left: 20rem;
+  text-align: center;
+}
+.file-eight span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-eight {
+  position: absolute;
+  top: 12rem;
+  left: 28rem;
+}
+.file-nine span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-nine {
+  position: absolute;
+  top: 12rem;
+  left: 35rem;
+}
+.file-ten span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-ten {
+  position: absolute;
+  top: 12rem;
+  left: 42rem;
+}
+
+.file-11 span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-11 {
+  position: absolute;
+  top: 20rem;
+  left: 42rem;
+}
+
+.file-12 span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-12 {
+  position: absolute;
+  top: 20rem;
+  left: 14rem;
+}
+.file-13 span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-13 {
+  position: absolute;
+  top: 20rem;
+  left: 21rem;
+}
+.file-14 span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-14 {
+  position: absolute;
+  top: 20rem;
+  left: 28rem;
+}
+.file-15 span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-15 {
+  position: absolute;
+  top: 20rem;
+  left: 35rem;
+}
+.file-16 span {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.file-16 {
+  position: absolute;
+  top: 20rem;
+  left: 42rem;
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 400px;
+  right: 83%;
+  top: 0%;
+  position: absolute;
+}
+
+.hl {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid black;
+  margin-top: 0.4rem;
+  width: 83%;
+  float: right;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background: #fff;
+}
+
+/*IPhone*/
+/*Iphone 5*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .header-list {
+    display: none;
+  }
+  .twitter-top {
+    display: none;
+  }
+  .tumblr-top {
+    display: none;
+  }
+  .instagram-top {
+    display: none;
+  }
+  .youtube-top {
+    display: none;
+  }
+  .soundcloud-top {
+    display: none;
+  }
+  .search-top {
+    display: none;
+  }
+  .logo-top {
+    width: 30%;
+  }
+
+  body {
+    background-image: url(mobilebackgound.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  footer {
+    /* display: flex; */
+    width: 98%;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 0.3rem;
+    position: absolute;
+    bottom: 0%;
+    margin: 0.2rem;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320) and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .header-list {
+    display: none;
+  }
+  .twitter-top {
+    display: none;
+  }
+  .tumblr-top {
+    display: none;
+  }
+  .instagram-top {
+    display: none;
+  }
+  .youtube-top {
+    display: none;
+  }
+  .soundcloud-top {
+    display: none;
+  }
+  .logo-top {
+    width: 20%;
+  }
+  .five {
+    display: none;
+  }
+
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  footer {
+    /* display: flex; */
+    width: 60%;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 0.3rem;
+    position: absolute;
+    bottom: 0%;
+    margin: 0.1rem 20%;
+  }
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .header-list {
+    display: none;
+  }
+  .twitter-top {
+    display: none;
+  }
+  .tumblr-top {
+    display: none;
+  }
+  .instagram-top {
+    display: none;
+  }
+  .youtube-top {
+    display: none;
+  }
+  .soundcloud-top {
+    display: none;
+  }
+  .search-top {
+    display: none;
+  }
+  .logo-top {
+    width: 50%;
+  }
+  body {
+    background-image: url(mobilebackgound.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  footer {
+    display: flex;
+    width: 80%;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 0.3rem;
+    position: absolute;
+    bottom: 0%;
+    margin: 0.1rem 10%;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .header-list {
+    display: none;
+  }
+  .twitter-top {
+    display: none;
+  }
+  .tumblr-top {
+    display: none;
+  }
+  .instagram-top {
+    display: none;
+  }
+  .youtube-top {
+    display: none;
+  }
+  .soundcloud-top {
+    display: none;
+  }
+  .logo-top {
+    width: 20%;
+  }
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .four {
+    position: absolute;
+    top: 11.5%;
+    margin-left: 8rem;
+  }
+  .five {
+    position: absolute;
+    top: 41%;
+    margin-left: 8rem;
+  }
+  footer {
+    /* display: flex; */
+    width: 60%;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 0.3rem;
+    position: absolute;
+    bottom: 0%;
+    margin: 0.1rem 20%;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .header-list {
+    display: none;
+  }
+  .twitter-top {
+    display: none;
+  }
+  .tumblr-top {
+    display: none;
+  }
+  .instagram-top {
+    display: none;
+  }
+  .youtube-top {
+    display: none;
+  }
+  .soundcloud-top {
+    display: none;
+  }
+  .search-top {
+    display: none;
+  }
+  .logo-top {
+    width: 50%;
+  }
+
+  body {
+    background-image: url(mobilebackgound.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  footer {
+    display: flex;
+    width: 80%;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 0.3rem;
+    position: absolute;
+    bottom: 0%;
+    margin: 0.1rem 10%;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .header-list {
+    display: none;
+  }
+  .twitter-top {
+    display: none;
+  }
+  .tumblr-top {
+    display: none;
+  }
+  .instagram-top {
+    display: none;
+  }
+  .youtube-top {
+    display: none;
+  }
+  .soundcloud-top {
+    display: none;
+  }
+  .logo-top {
+    width: 20%;
+  }
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .four {
+    position: absolute;
+    top: 11.5%;
+    margin-left: 8rem;
+  }
+  .five {
+    position: absolute;
+    top: 37.5%;
+    margin-left: 8rem;
+  }
+  footer {
+    /* display: flex; */
+    width: 60%;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 0.3rem;
+    position: absolute;
+    bottom: 0%;
+    margin: 0.1rem 20%;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .header-list {
+    display: none;
+  }
+  .twitter-top {
+    display: none;
+  }
+  .tumblr-top {
+    display: none;
+  }
+  .instagram-top {
+    display: none;
+  }
+  .youtube-top {
+    display: none;
+  }
+  .soundcloud-top {
+    display: none;
+  }
+  .search-top {
+    display: none;
+  }
+  .logo-top {
+    width: 50%;
+  }
+  body {
+    background-image: url(mobilebackgound.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  footer {
+    display: flex;
+    width: 80%;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 0.3rem;
+    position: absolute;
+    bottom: 0%;
+    margin: 0.1rem 10%;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 812px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .header-list {
+    display: none;
+  }
+  .twitter-top {
+    display: none;
+  }
+  .tumblr-top {
+    display: none;
+  }
+  .instagram-top {
+    display: none;
+  }
+  .youtube-top {
+    display: none;
+  }
+  .soundcloud-top {
+    display: none;
+  }
+  .logo-top {
+    width: 20%;
+  }
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .four {
+    position: absolute;
+    top: 12.5%;
+    margin-left: 8rem;
+  }
+  .five {
+    position: absolute;
+    top: 42%;
+    margin-left: 8rem;
+  }
+  footer {
+    /* display: flex; */
+    width: 60%;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 0.3rem;
+    position: absolute;
+    bottom: 0%;
+    margin: 0.1rem 20%;
+  }
+}
+
+/*Tablet */
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .header-list {
+    display: none;
+  }
+  .twitter-top {
+    display: none;
+  }
+  .tumblr-top {
+    display: none;
+  }
+  .instagram-top {
+    display: none;
+  }
+  .youtube-top {
+    display: none;
+  }
+  .soundcloud-top {
+    display: none;
+  }
+  .logo-top {
+    width: 20%;
+  }
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 550%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  footer {
+    /* display: flex; */
+    width: 60%;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 0.3rem;
+    position: absolute;
+    bottom: 0%;
+    margin: 0.1rem 20%;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 130%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  footer {
+    /* display: flex; */
+    width: 50%;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 0.3rem;
+    position: absolute;
+    bottom: 0%;
+    margin: 0.1rem 25%;
+  }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 140%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  footer {
+    /* display: flex; */
+    width: 40%;
+    height: 3rem;
+    background-color: lightgrey;
+    border-radius: 0.3rem;
+    position: absolute;
+
+    bottom: 0%;
+    margin: 0.1rem 30%;
+  }
+}
